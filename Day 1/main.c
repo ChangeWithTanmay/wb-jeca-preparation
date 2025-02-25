@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include <limits.h>
 
 int main()
 {
@@ -108,11 +109,39 @@ printf("%c\n", stars);
     */
 
     // C. Write a program to print the smallest number of two.
+    /*
      int num1, num2;
      printf("Enter number:");
      scanf("%d, %d", &num1, &num2);
      printf("%d is small, reasion %d", num2, num1 > num2);
      printf("%d is small, reasion %d", num1,num1 < num2);
-     
+     */
+    /*
+     int a=10/3;
+     printf("%d\n", a);
+
+     printf("%d\n", 7&3);
+     printf("%d\n", 5<<1);
+     printf("%d\n", !(1 && 0));
+     */
+    // int a=5;
+    // printf("%d\n", 5 == 5 == 1);
+    // int a;
+    // a=(1,2,4,3,9);
+    // printf("%d\n", a);
+
+    // printf("%d\n", 3*2/(2-2));
+    // printf("%d\n", 7 & 3);
+    // printf("%d\n", 3>2>1);
+    // int a;
+    // printf("%d",'A');
+    long int a=1000000000;
+    printf("%ld\n",a);
+    printf("Maximum value for long int: %ld\n", LONG_MAX);
+    
+    long long int large_number = 9223372036854775807; // Maximum value
+    printf("The large number is: %lld\n", large_number); // Note the %lld format specifier
+
     return 0;
+    // 21474 83647
 }
