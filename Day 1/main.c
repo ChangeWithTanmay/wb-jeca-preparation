@@ -61,10 +61,58 @@ int main()
    printf("%d\n", 4==3); // 0 -> Falsh
    */
 
-    int x;
-    printf("Enter number:");
-    scanf("%d", &x);
-    printf("%d", x / 2 == 0 );
+    /*
+     int x;
+     printf("Enter number:");
+     scanf("%d", &x);
+     printf("%d", x / 2 == 0 );
 
+// int x; int y = x; // valid
+// int x, y=x; // valid state
+char stars = '**';
+// printf("%d\n", x);
+// printf("%d\n", y);
+printf("%c\n", stars);
+    printf("%d\n", 8 ^ 8); // vaild state
+*/
+
+    /*
+    int isSunday = 0;
+    int isSnowing = 1;
+    int isMonday = 1;
+    int isRaining = 0;
+    // printf("%d\n", isSunday && isSnowing);
+    printf("%d\n", isMonday || isRaining);
+    
+
+    // if any number 9 < x <100
+    int num;
+    printf("Enter Number is:");
+    scanf("%d", &num);
+    printf("%d", 9 < num && num < 100);
+    */
+/*
+    // write a  program to print the average number of 3.
+    int num1, num2, num3;
+    printf("Enter number:");
+    scanf("%d, %d, %d", &num1, &num2, &num3);
+    printf("%f", (float)(num1+num2+num3)/3);
+*/
+
+    // Write a program to check if given character is digit or not.
+    /*
+    char inputChar;
+    printf("Input  char: ");
+    scanf("%c", &inputChar);  // -128 to 127
+    printf("Your input char is:%c, and : %d", inputChar ,-129 < inputChar && inputChar < 128);
+    */
+
+    // C. Write a program to print the smallest number of two.
+     int num1, num2;
+     printf("Enter number:");
+     scanf("%d, %d", &num1, &num2);
+     printf("%d is small, reasion %d", num2, num1 > num2);
+     printf("%d is small, reasion %d", num1,num1 < num2);
+     
     return 0;
 }
